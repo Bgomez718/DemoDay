@@ -7,13 +7,11 @@
 body {
     background-color: #f0f0f0;
     overflow: hidden;
-    overflow-x: hidden;
     width: 100%;
 }
 
 header {
     width: 100vw;
-    direction:
 }
 
 .logo {
@@ -30,45 +28,7 @@ header {
     background-color: white;
 }
 
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: block;
-}
-
-.dropdown-content {
-    display: block;
-    transform: translateX(95vw);
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 95vw;
-    /*    right: -55vw;*/
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    transition: all ease 1.0s;
-    overflow: hidden;
-}
-
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1
-}
-
+/*
 .dropdown:hover .dropdown-content {
     left: auto;
     right: 0;
@@ -76,14 +36,51 @@ header {
     transform: translateX(0);
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+*/
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    right: 0;
+    left: auto;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.menu-options {
-    width: 100%;
-    list-style-type: none;
-    padding: 9px;
-    padding-right: 0;
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
 
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
 }

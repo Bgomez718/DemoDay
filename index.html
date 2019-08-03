@@ -8,32 +8,29 @@
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script href="script.js"> </script>
 </head>
 
 <body>
-    <header>
-        <nav class="main-nav">
-            <div class="head-logo">
-                <img class="logo" src="img/b-logo-1180x885-removebg-preview.png">
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    <i class="material-icons">
-                        menu </i>
-                </button>
-                <div class="dropdown-content">
-                    <ul class="menu-list">
-                        <li class="menu-options"><a href="#">Home</a></li>
-                        <li class="menu-options"><a href="#">Top Stories</a></li>
-                        <li class="menu-options"><a href="#">Guides</a></li>
-                        <li class="menu-options"><a href="#">About Us</a></li>
-                        <li class="menu-options"><a href="#">Contact Us</a></li>
-                    </ul>
+
+    <div class="main-container">
+        <header>
+
+            <nav class="main-nav">
+                <div class="head-logo">
+                    <img class="logo" src="img/b-logo-1180x885-removebg-preview.png">
                 </div>
-            </div>
-        </nav>
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#">Home</a>
+                    <a href="#">Top Stories</a>
+                    <a href="#">Guide</a>
+                    <a href="#">Contact</a>
+                </div>
+                <button class="openbtn" onclick="openNav()">☰</button>
+            </nav>
 
-    </header>
+        </header>
 
-
+    </div>
 </body></html>
