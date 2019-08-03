@@ -7,6 +7,8 @@
 body {
     background-color: #f0f0f0;
     overflow: hidden;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 header {
