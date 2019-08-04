@@ -48,7 +48,8 @@ header {
     z-index: 1;
     /* Stay on top */
     top: 0;
-    left: 0;
+    left: auto;
+    right: 0;
     background-color: #111;
     /* Black*/
     overflow-x: hidden;
@@ -98,11 +99,8 @@ header {
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    /* If you want a transition effect */
-    padding: 20px;
-}
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
