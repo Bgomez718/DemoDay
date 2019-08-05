@@ -155,13 +155,43 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-height: 450px) {
-    .sidebar {
-        padding-top: 15px;
-    }
 
-    .sidebar a {
-        font-size: 18px;
-    }
+.sidebar a {
+    font-size: 18px;
+}
 
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    
+}
+
+.search-bar {
+    background-color:transparent;
+    border: none;
+    width: 100%;
+}
+
+.search-box-flex {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px;
+}
+
+
+
+.search-flex {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px;
+    margin: 2%;
+    
+}
+
+.material-icons {
+    background-color: white;
+    border: none;
+    
 }
