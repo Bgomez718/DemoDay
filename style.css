@@ -11,7 +11,7 @@ fonts : font-family: 'Roboto', sans-serif;
 
 body {
     background-color: #f0f0f0;
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
 }
 
@@ -124,6 +124,8 @@ header {
     background-repeat: no-repeat;
     width: 100vw;
     height: 50vh;
+    padding-top: 10%;
+
 
 }
 
@@ -133,12 +135,13 @@ header {
 
 .hero-text {
     color: white;
-    font-size: 1.4rem;
+    font-size: 3.0rem;
     font-family: 'Roboto', sans-serif;
+    margin-bottom:
 }
 
 .hero-btn {
-    margin-top: 4%;
+    margin: 4%;
     background-color: red;
     width: ;
     font-size: 0.6rem;
