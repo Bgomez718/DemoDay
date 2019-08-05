@@ -162,17 +162,9 @@ header {
 
 }
 
-.search-button {
-    background-color: transparent;
-    border: none;
-    
-}
 
-.search-bar {
-    background-color:transparent;
-    border: none;
-    width: 100%;
-}
+
+
 
 .search-box-flex {
     display: flex;
@@ -187,11 +179,20 @@ header {
     justify-content: space-between;
     border: solid 2px;
     margin: 2%;
-    
+
 }
 
-.material-icons {
+.material-icons {}
+
+
+
+.search-btn {
     background-color: white;
+    border:none;
+    padding: 2px;
+}
+
+.search-bar    {
+    width: 100%;
     border: none;
-    
 }
