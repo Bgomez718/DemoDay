@@ -134,7 +134,7 @@ header {
 }
 
 .hero-text {
-    color: white;
+    color: rgba(255, 255, 255, 0.92);
     font-size: 3.0rem;
     font-family: 'Roboto', sans-serif;
     margin-bottom:
