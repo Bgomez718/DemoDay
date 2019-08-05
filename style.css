@@ -21,9 +21,11 @@ header {
 
 .logo {
     padding: 0px;
-    margin: -12px;
-    width: 12vw;
+    margin: -14px;
+    width: 15vw;
+    height: 9vh;
 }
+
 
 .main-nav {
     min-width: 100vw;
@@ -74,12 +76,11 @@ header {
     display: block;
     transition: 0.3s;
     font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-    color: #ffb0b0;
-}
+
 
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
@@ -103,6 +104,7 @@ header {
 
 
 
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 
 
@@ -116,4 +118,44 @@ header {
     .sidebar a {
         font-size: 18px;
     }
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.57)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 25vh;
+
+}
+
+.main-content {
+    width: 100%;
+}
+
+.hero-text {
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-btn {
+    margin-top: 4%;
+    background-color: red;
+    width: ;
+    font-size: 0.6rem;
+}
+
+.hero-btn a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
 }
