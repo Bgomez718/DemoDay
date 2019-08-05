@@ -118,12 +118,12 @@ header {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.57)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.60)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 25vh;
+    height: 44vh;
 
 }
 
@@ -165,7 +165,9 @@ header {
 
 @media screen and (max-width: 350px) {
     .hero-img {
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
     }
+
+    1
 }
