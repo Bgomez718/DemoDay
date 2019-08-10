@@ -165,19 +165,11 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-
-
-
-
-
 .search-box-flex {
     display: flex;
     flex-direction: row;
     border: solid 2px;
 }
-
 
 
 .search-flex {
@@ -235,6 +227,13 @@ span {
     display: block;
     border: solid white;
     font-weight: 100;
+}
+
+.story-headlines {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background-color: #f0f0f0;
 }
 
 .progress-box-flex {
@@ -310,7 +309,7 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:100%;
+    width: 100%;
 }
 
 .row-title {
@@ -319,7 +318,7 @@ span {
     font-family: 'Roboto', sans-serif;
     font-size: 1.1rem;
     font-weight: 300;
-    padding-right:10px;
+    padding-right: 10px;
 }
 
 .row-name {
@@ -365,11 +364,30 @@ span {
 .progress-btn {
     text-decoration: none;
     color: black;
+    font-weight: 500
 }
 
 .flex-title-name {
     display: flex;
     justify-content: space-between;
-    width:100%;
-    
+    width: 100%;
+
+}
+
+
+
+.headline {
+    height: 10vh;
+    border-bottom: solid 1px #b2b2b2;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+
+.headline a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
