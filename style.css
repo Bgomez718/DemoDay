@@ -244,6 +244,7 @@ span {
 .progress-box-flex {
     display: flex;
     flex-direction: column;
+    margin: 15px;
 }
 
 .course-promt {
