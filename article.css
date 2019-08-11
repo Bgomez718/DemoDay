@@ -1,0 +1,59 @@
+/*fonts: font-family: 'Roboto', sans-serif;*/
+
+.collapsible {
+	background-color: #ffffff;
+	color: black;
+	cursor: pointer;
+	padding: 14px;
+	width: 100%;
+	border: none;
+	border-top: 1px solid #e8e8e8;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+
+.content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+}
+
+.collapsible:after {
+	content: '▼';
+	font-size: 12px;
+	color: black;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "▲";
+	/* Unicode character for "minus" sign (-) */
+}
+
+.pre-article {
+	margin: 10px;
+	border: solid 1px #dddddd;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+.spacer {
+	padding: 4.3vh
+}
+
+#drop-down {
+	padding: 0;
+	margin: 0;
+}
+
+.pre-article-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: gray;
+	padding: 5px 15px;
+}
