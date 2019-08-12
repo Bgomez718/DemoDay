@@ -50,7 +50,10 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	height: 80vh;
+	display: flex;
+	flex-direction: column;
 }
+
 
 .callout {
 	position: fixed;
@@ -148,14 +151,13 @@ body {
 .recommended-articles {
 	display: flex;
 	flex-direction: column;
-	height: 50vh;
+	height: 75vh;
 }
 
 .article-rec {
 	background-color: #4f7177;
-	height: auto;
-	height: 100vh;
-
+	height: 50%;
+	width: 100%;
 }
 
 .article-rec-title {

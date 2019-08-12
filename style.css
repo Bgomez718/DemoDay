@@ -481,7 +481,7 @@ footer {
 	display: flex;
 	align-items: flex-end;
 	border-top: 1px solid #dddddd;
-	height: 20vh;
+	height: auto;
 
 }
 
@@ -490,13 +490,15 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
 }
 
 .legal-form-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	width: auto;
 }
 
 .privacy-policy {
