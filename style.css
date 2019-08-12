@@ -4,45 +4,46 @@ fonts : font-family: 'Roboto', sans-serif;
 */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    overflow-x: hidden;
-    width: 100%;
+	background-color: white;
+	overflow-x: hidden;
+	width: 100%;
+	height: auto;
 }
 
 header {
-    width: 100vw;
-    position: fixed;
-    box-shadow: 0px 2px 2px #414141;
+	width: 100vw;
+	position: fixed;
+	box-shadow: 0px 2px 2px #414141;
 }
 
 h3 {
-    font-weight: 500;
+	font-weight: 500;
 }
 
 span {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .logo {
-    padding: 0px;
-    margin: -14px;
-    width: 15vw;
-    height: 9vh;
+	padding: 0px;
+	margin: -14px;
+	width: 15vw;
+	height: 9vh;
 }
 
 
 .main-nav {
-    min-width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+	min-width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
 }
 
 /*
@@ -56,38 +57,38 @@ span {
 */
 
 .sidebar {
-    height: 100%;
-    /* 100% Full-height */
-    width: 0;
-    /* 0 width - change this with JavaScript */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Stay on top */
-    top: 0;
-    left: auto;
-    right: 0;
-    background-color: #ffffff;
-    /* Black*/
-    overflow-x: hidden;
-    /* Disable horizontal scroll */
-    padding-top: 60px;
-    /* Place content 60px from the top */
-    transition: 0.5s;
-    /* 0.5 second transition effect to slide in the sidebar */
+	height: 100%;
+	/* 100% Full-height */
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Stay on top */
+	top: 0;
+	left: auto;
+	right: 0;
+	background-color: #ffffff;
+	/* Black*/
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 60px;
+	/* Place content 60px from the top */
+	transition: 0.5s;
+	/* 0.5 second transition effect to slide in the sidebar */
 }
 
 /* The sidebar links */
 .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 1.5em;
-    ;
-    color: red;
-    display: block;
-    transition: 0.3s;
-    font-family: 'Roboto', sans-serif;
-    border-bottom: 1px solid #e6e6e6;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 1.5em;
+	;
+	color: red;
+	display: block;
+	transition: 0.3s;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -95,22 +96,22 @@ span {
 
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    color: black;
-    right: 5px;
-    font-size: 36px;
-    margin-left: 50px;
+	position: absolute;
+	top: 0;
+	color: black;
+	right: 5px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 
 /* The button used to open the sidebar */
 .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    padding: 10px 15px;
-    border: none;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	padding: 10px 15px;
+	border: none;
 }
 
 
@@ -124,392 +125,397 @@ span {
 
 
 .hero-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 50vh;
-    padding-top: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 50vh;
+	padding-top: 10%;
 
 
 }
 
 .main-content {
-    width: 100%;
+	width: 100%;
 }
 
 .hero-text {
-    color: rgba(255, 255, 255, 0.92);
-    font-size: 3.0rem;
-    font-family: 'Roboto', sans-serif;
+	color: rgba(255, 255, 255, 0.92);
+	font-size: 3.0rem;
+	font-family: 'Roboto', sans-serif;
 }
 
 .hero-btn {
-    margin: 4%;
-    background-color: red;
-    width: ;
-    font-size: 0.65rem;
+	margin: 4%;
+	background-color: red;
+	width: ;
+	font-size: 0.65rem;
 }
 
 .hero-btn a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .search-box-flex {
-    display: flex;
-    flex-direction: row;
-    border: solid 2px;
+	display: flex;
+	flex-direction: row;
+	border: solid 2px;
 }
 
 
 .search-flex {
-    display: flex;
-    justify-content: space-between;
-    border: solid 2px;
-    margin: 2%;
+	display: flex;
+	justify-content: space-between;
+	border: solid 2px;
+	margin: 2%;
 
 }
 
 .material-icons {
-    padding: 10px;
-    margin: 5px;
+	padding: 10px;
+	margin: 5px;
 }
 
 
 
 .search-btn {
-    background-color: white;
-    border: none;
-    padding: 2px;
+	background-color: white;
+	border: none;
+	padding: 2px;
 }
 
 .search-bar {
-    width: 100%;
-    border: none;
+	width: 100%;
+	border: none;
 }
 
 .account-btn {
-    width: 50%;
-    height: 7vh;
-    background-color: red;
-    text-align: center;
-    display: block;
-    border: solid red;
+	width: 50%;
+	height: 7vh;
+	background-color: red;
+	text-align: center;
+	display: block;
+	border: solid red;
 }
 
 
 
 .account-form-flex {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 .account-btn2 {
-    display: block;
-    width: 50%;
-    height: 7vh;
-    background-color: white;
-    text-align: center;
-    display: block;
-    border: solid white;
-    font-weight: 100;
+	display: block;
+	width: 50%;
+	height: 7vh;
+	background-color: white;
+	text-align: center;
+	display: block;
+	border: solid white;
+	font-weight: 100;
 }
 
 .story-headlines {
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	background-color: #f0f0f0;
 }
 
 .box-flex {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
 }
 
 .prompt {
-    margin: 30px 10px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.34rem;
-    margin-bottom: 5%
+	margin: 30px 10px 0px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.34rem;
+	margin-bottom: 5%
 }
 
 .course-alert {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 
 .course-details {
-    background-color: #ffffff;
-    margin: 10px;
-    border: solid 1px #bababa;
-    border-radius: 6px;
+	background-color: #ffffff;
+	margin: 10px;
+	border: solid 1px #bababa;
+	border-radius: 6px;
 }
 
 .progress-promt {
-    padding: 15px 10px;
-    width: 50%;
-    font-family: 'Roboto', sans-serif;
-    ;
+	padding: 15px 10px;
+	width: 50%;
+	font-family: 'Roboto', sans-serif;
+	;
 }
 
 .progress-completion {
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
-    padding: 15px 10px;
-    font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	padding: 15px 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .progress-flex {
-    display: flex;
-    justify-content: space-between;
-    margin: 8px 0px
+	display: flex;
+	justify-content: space-between;
+	margin: 8px 0px
 }
 
 .progress-promt-text {
-    font-weight: 600;
-    font-size: 1.3rem;
+	font-weight: 600;
+	font-size: 1.3rem;
 }
 
 .progress-tags {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #f0f0f0;
-    border: none;
-    border-radius: 5px;
-    margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: #f0f0f0;
+	border: none;
+	border-radius: 5px;
+	margin: 15px;
 }
 
 .progress-prompt-location {
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
 
 }
 
 .progress-promt-percent {
-    align-content: center;
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: Black;
-    border-bottom: solid 3px red;
+	align-content: center;
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: Black;
+	border-bottom: solid 3px red;
 }
 
 .progress-tag-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 
 .row-title {
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 300;
-    padding-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 300;
+	padding-right: 10px;
 }
 
 .row-name {
-    justify-content: flex-end;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem;
-    font-weight: 300;
+	justify-content: flex-end;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 300;
 }
 
 #progress-icons {
-    border: 2px solid red;
-    border-radius: 50%;
-    background-color: white;
+	border: 2px solid red;
+	border-radius: 50%;
+	background-color: white;
 }
 
 .dif-material-icon {
-    padding: 10px;
-    margin: 5px;
-    background-color: red;
+	padding: 10px;
+	margin: 5px;
+	background-color: red;
 }
 
 #dif-material-icon {
-    padding: 10px;
-    margin: 5px;
-    color: white;
-    background-color: red;
-    border-radius: 50%;
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	background-color: red;
+	border-radius: 50%;
 }
 
 .progress-box-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    background-color: white;
-    border: none;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	background-color: white;
+	border: none;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 
 .progress-btn {
-    text-decoration: none;
-    color: black;
-    font-weight: 500
+	text-decoration: none;
+	color: black;
+	font-weight: 500
 }
 
 .flex-title-name {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 
 }
 
 
 
 .headline {
-    height: 10vh;
-    border-bottom: solid 1px #b2b2b2;
-    font-size: 1rem;
-    padding: 12px;
+	height: 10vh;
+	border-bottom: solid 1px #b2b2b2;
+	font-size: 1rem;
+	padding: 12px;
 }
 
 
 .headline a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+	color: black;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 .new-and-noteworthy-title {}
 
 .course-box {
-    border-top: 8px solid red;
-    box-shadow: 0px 2px 2px 2px #ededed;
-    height: 30vh;
-    margin-bottom: 8%;
+	border-top: 8px solid red;
+	box-shadow: 0px 2px 2px 2px #ededed;
+	height: 30vh;
+	margin-bottom: 8%;
 }
 
 .course-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #5a5b5e;
-    margin-bottom: 1.125rem;
-    margin-left: 20px;
-    margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #5a5b5e;
+	margin-bottom: 1.125rem;
+	margin-left: 20px;
+	margin-top: 10px;
 
 }
 
 .course-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
-    margin-top: 10px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
 .course-disc {
 
-    margin: 20px;
-    color: gray;
-    line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+	margin: 20px;
+	color: gray;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
 }
 
 .community-contact-flex {
-    padding-left: 20px;
+	padding-left: 20px;
 }
 
 .im {
-    margin: 0px 15px 0px 0px;
+	margin: 0px 15px 0px 0px;
 }
 
 .im-github {}
 
 .card-grid {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 5%;
-    height: 25vh
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5%;
+	height: 25vh
 }
 
 .card-details {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 
 
 .card-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
 }
 
 .card-link-div {}
 
 .card-link {
-    color: #3069f0;
+	color: #3069f0;
 }
 
 footer {
-    border-top: 1px solid #dddddd; 
+	display: flex;
+	align-items: flex-end;
+	border-top: 1px solid #dddddd;
+	height: 20vh;
+
 }
 
+
 .footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .legal-form-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
 }
 
 .privacy-policy {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin: 10px 10px 20px 10px;
-    color: #4b35ef;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 10px 10px 20px 10px;
+	color: #4b35ef;
 }
 
 .devider {
-    color: black;
-    margin: 0px 5px
+	color: black;
+	margin: 0px 5px
 }
 
 .made-in-tags {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin: 10px 10px 20px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 10px 10px 20px 10px;
 }

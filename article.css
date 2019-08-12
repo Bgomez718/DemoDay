@@ -38,7 +38,8 @@
 .pre-article {
 	margin: 10px;
 	border: solid 1px #dddddd;
-	border-radius: 5px;
+	border-left: none;
+	border-right:none;
 	padding: 4px;
 }
 
@@ -48,6 +49,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	height: 80vh;
 }
 
 .callout {
