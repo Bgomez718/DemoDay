@@ -1,0 +1,25 @@
+.head{
+    border-style:solid;
+    font-size:80px;
+    border-color:lightgrey;
+    padding-left:10px;
+    
+}
+.main_div {
+    height:80vh;
+    text-decoration-line: none;
+}
+.Chat{
+    height:8vh;
+    border-bottom:solid;
+   font-size:13px;
+    padding-left:20px;
+    border-color:lightgrey
+    
+    
+}
+
+a {
+    text-decoration-line: none;
+    color:black;
+}
