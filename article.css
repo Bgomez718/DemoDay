@@ -46,6 +46,45 @@
 	padding: 4.3vh
 }
 
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.callout {
+	position: fixed;
+	bottom: 300px;
+	right: 20px;
+	margin-left: 20px;
+	max-width: 300px;
+	line-height: 1.3;
+}
+
+.callout-header {
+	padding: 25px 15px;
+	background: #4476ff;
+	font-size: 30px;
+	color: white;
+}
+
+.callout-container {
+	padding: 15px;
+	background-color: #8ebeff;
+	color: black
+}
+
+.closebtn {
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+. closebtn:hover {
+	color: lightgrey;
+}
+
 #drop-down {
 	padding: 0;
 	margin: 0;
@@ -56,4 +95,84 @@
 	font-weight: 400;
 	color: gray;
 	padding: 5px 15px;
+}
+
+
+
+.article-blurb h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: .7rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: gray;
+	padding: 8px 16px;
+}
+
+.article-title {
+	padding: 20px;
+	color: #4b4a4a;
+}
+
+.author {
+	margin-top: 10px;
+}
+
+.article-text {
+	font-family: 'Roboto', sans-serif;
+	padding: 20px;
+	padding-top: 0px;
+	line-height: 1.4;
+}
+
+.article-text a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #ff523b;
+}
+
+.submit-questions {
+	border-top: 1px solid #dddddd;
+}
+
+.submit-question-prompt {
+	margin: 20px;
+	font-size: 1rem;
+}
+
+.qna-link {
+	color: #4b35ef;
+}
+
+.recommended-articles {
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+}
+
+.article-rec {
+	background-color: #4f7177;
+	height: auto;
+	height: 100vh;
+
+}
+
+.article-rec-title {
+	margin: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: white;
+
+}
+
+.article-rec-desc {
+	margin: 20px;
+	margin-bottom: 40px;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: white;
+}
+
+#article-rec-def {
+	background-color: #415f64;
 }

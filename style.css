@@ -129,7 +129,7 @@ span {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.60)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ span {
 
 }
 
-.main-content 
+.main-content {
     width: 100%;
 }
 
@@ -477,7 +477,7 @@ span {
 }
 
 footer {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #dddddd; 
 }
 
 .footer-content {
