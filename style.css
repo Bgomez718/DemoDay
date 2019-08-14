@@ -521,6 +521,26 @@ footer {
 	margin: 10px 10px 20px 10px;
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #8e44ad;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #5b1279;
+	border-radius: 45px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+}
+
 .main-container {
 	position: relative;
 }
