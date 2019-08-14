@@ -1,25 +1,99 @@
-.head{
-    border-style:solid;
-    font-size:80px;
-    border-color:lightgrey;
-    padding-left:10px;
-    
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
 }
+
+
+
+.head {
+
+	border-bottom: solid;
+
+	font-size: 25px;
+
+	border-color: lightgrey;
+
+	padding-left: 10px;
+	
+}
+
 .main_div {
-    height:80vh;
-    text-decoration-line: none;
+
+	height: 80vh;
+
+	text-decoration-line: none;
+
 }
-.Chat{
-    height:8vh;
-    border-bottom:solid;
-   font-size:13px;
-    padding-left:20px;
-    border-color:lightgrey
-    
-    
+
+.Chat {
+	height: 8vh;
+	border-bottom: solid;
+	font-size: 8px;
+	padding-left: 20px;
+	border-color: lightgrey
 }
 
 a {
-    text-decoration-line: none;
-    color:black;
+	text-decoration-line: none;
+	color: black;
+}
+
+.head {
+	margin-top: 35px;
+}
+
+.chat-room-flex {
+	padding-top: 45px;
+	font-family: 'Roboto', sans-serif;
+}
+.chat_options{
+
+	display:flex;
+
+	justify-content:space-between;
+
+	font-size:14px;
+
+	font-weight:bold;
+	
+	padding-bottom:5px;
+
+	width:100%;
+
+}
+.option1{
+	margin-left:-10px;
+	text-align:center;
+	width:50%;
+	padding-bottom:15px;
+	border-bottom:solid;
+	border-color:#8e44ad;
+	
+
+}
+.option{
+	margin-right:10px;
+	text-align:center;
+	width:50%;
+
+}
+h3{
+	padding-bottom:9px;
+
+}
+.Public{
+
+	color:#8e44ad;
+
+	padding-bottom:5px;
+	
+
+}
+.head{
+	border-bottom:none;
+}
+.footer{
+	margin-top:0px;
 }

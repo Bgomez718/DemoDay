@@ -32,9 +32,9 @@ span {
 
 .logo {
 	padding: 0px;
-	margin: -14px;
-	width: 15vw;
-	height: 9vh;
+	margin: 14px;
+	width: 45px;
+	height: 45px;
 }
 
 
@@ -84,7 +84,7 @@ span {
 	text-decoration: none;
 	font-size: 1.5em;
 	;
-	color: red;
+	color: #8e44ad;
 	display: block;
 	transition: 0.3s;
 	font-family: 'Roboto', sans-serif;
@@ -141,9 +141,7 @@ span {
 
 }
 
-.main-content {
-	width: 100%;
-}
+
 
 .hero-text {
 	color: rgba(255, 255, 255, 0.92);
@@ -153,7 +151,7 @@ span {
 
 .hero-btn {
 	margin: 4%;
-	background-color: red;
+	background-color: #8e44ad;
 	width: ;
 	font-size: 0.65rem;
 }
@@ -183,7 +181,6 @@ span {
 
 .material-icons {
 	padding: 10px;
-	margin: 5px;
 }
 
 
@@ -202,10 +199,10 @@ span {
 .account-btn {
 	width: 50%;
 	height: 7vh;
-	background-color: red;
+	background-color: #8e44ad;
 	text-align: center;
 	display: block;
-	border: solid red;
+	border: solid #8e44ad;
 }
 
 
@@ -309,7 +306,7 @@ span {
 	font-weight: 600;
 	font-size: 1.2rem;
 	color: Black;
-	border-bottom: solid 3px red;
+	border-bottom: solid 3px #8e44ad;
 }
 
 .progress-tag-row {
@@ -337,7 +334,7 @@ span {
 }
 
 #progress-icons {
-	border: 2px solid red;
+	border: 2px solid #8e44ad;
 	border-radius: 50%;
 	background-color: white;
 }
@@ -345,14 +342,14 @@ span {
 .dif-material-icon {
 	padding: 10px;
 	margin: 5px;
-	background-color: red;
+	background-color: #8e44ad;
 }
 
 #dif-material-icon {
 	padding: 10px;
 	margin: 5px;
 	color: white;
-	background-color: red;
+	background-color: #8e44ad;
 	border-radius: 50%;
 }
 
@@ -403,7 +400,7 @@ span {
 .new-and-noteworthy-title {}
 
 .course-box {
-	border-top: 8px solid red;
+	border-top: 8px solid #8e44ad;
 	box-shadow: 0px 2px 2px 2px #ededed;
 	height: 30vh;
 	margin-bottom: 8%;
@@ -520,4 +517,8 @@ footer {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	margin: 10px 10px 20px 10px;
+}
+
+.main-container {
+	position: relative;
 }

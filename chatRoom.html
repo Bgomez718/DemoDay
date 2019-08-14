@@ -10,8 +10,34 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap" rel="stylesheet">
 	<link href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" rel="stylesheet">
+	<link href="chatRoom.css" rel="stylesheet" type="text/css">
 	<script src="script.js" defer> </script>
-	<script src="data.js" defer></script>
+	<script src="chatRoom.js" defer></script>
+
+
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+	<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-firestore.js"></script>
+
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyAdO7CfHIquE_8yBAIrqZYA_rIIw9JOJLU",
+			authDomain: "simplex-forum-comment.firebaseapp.com",
+			databaseURL: "https://simplex-forum-comment.firebaseio.com",
+			projectId: "simplex-forum-comment",
+			storageBucket: "",
+			messagingSenderId: "678461432037",
+			appId: "1:678461432037:web:0d405a53ea68ae83"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+	</script>
 </head>
 
 <body>
@@ -20,7 +46,8 @@
 		<header>
 			<!--NavBar-->
 			<nav class="main-nav">
-				<img class="logo" src="img/b-logo-1180x885-removebg-preview.png">
+				<!--				<img class="logo" src=\img\logo.jpg">-->
+
 				<div id="mySidebar" class="sidebar">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<div class="search-flex">
@@ -29,6 +56,7 @@
 								search
 							</i></button>
 					</div>
+
 					<a href="index.html">Home</a>
 					<a href="guide.html">Chat Room</a>
 					<a href="contact.html">Contact Us</a>
@@ -49,26 +77,96 @@
 				</div>
 			</nav>
 
+
 		</header>
 
 	</div>
-	<div class="main-content">
+	<div class="space">
 
-		<footer>
-			<div class="footer-content">
-				<div class="legal-form-link">
-					<div class="privacy-policy">
-						<p><a>Privacy Policy</a> <span class="devider">|</span> <a> Terms</a></p>
+	</div>
+	<div class="main-content">
+		<div class="comment-flex">
+			<div class="comment-container">
+
+				<div class="comment-body">
+					<div class="comment-title">
+						<h1> What I find hard to understand is why blah blah is trying to bleep blop.</h1>
+					</div>
+					<div class="profile-card">
+						<div class="profile-avatar">
+
+						</div>
+						<div class="profile-author">
+							<span> TheBombDotCom21</span>
+						</div>
+					</div>
+					<div class="comment-text">
+						<p> Lorem ipsum dolor sit amet, sit omnium eloquentiam ad, ei inani congue maluisset vix. At audiam oportere maluisset per, vide feugait mei ad. In populo inermis comprehensam sed. Cu sale putant incorrupte has, sonet menandri disputando an eos.
+							<br>
+							<br>
+							Fuisset scriptorem complectitur ut sea, cu deleniti constituto vix, dolor legimus qualisque eos at. At mel sumo aliquid, sea eros abhorreant ex, per voluptaria accommodare ad. Te copiosae placerat necessitatibus usu, vis denique singulis an. Dolorum suscipit eam ea, sed no prompta fastidii. Vis id adhuc oportere, dictas doctus dolorum eos ei, commune atomorum accusamus nec ei. </p>
 					</div>
 
 				</div>
-				<div class="made-in-tags">
-					Made with ❤️ in ASC©
+			</div>
+			<div class="comment-box">
+				<div class="profile-card">
+					<div class="profile-avatar" id="profile1">
+
+					</div>
+					<div class="profile-author">
+						<span> ThisCoolUsername123</span>
+					</div>
+				</div>
+				<div class="comment-text">
+					<p> Lorem ipsum dolor sit amet, sit omnium eloquentiam ad, ei inani congue maluisset vix. At audiam oportere maluisset per, vide feugait mei ad. In populo inermis comprehensam sed. Cu sale putant incorrupte has, sonet menandri disputando an eos.</p>
+				</div>
+				<div class="comment-actions">
+					<span class="view-comment-btn"> 4 Comments </span>
+					<span class="reply-comment-btn"> Reply <i class="material-icons" id="forum-reply-btn">
+							chat_bubble
+						</i> </span>
 				</div>
 
 			</div>
+			<div class="comment-box">
+				<div class="profile-card">
+					<div class="profile-avatar" id="profile2">
+
+					</div>
+					<div class="profile-author">
+						<span> WhereIsIsaiah4</span>
+					</div>
+				</div>
+				<div class="comment-text">
+					<p> Lorem ipsum dolor sit amet, sit omnium eloquentiam ad, ei inani congue maluisset vix. At audiam oportere maluisset per, vide feugait mei ad. In populo inermis comprehensam sed. Cu sale putant incorrupte has, sonet menandri disputando an eos.</p>
+
+				</div>
+				<div class="comment-actions">
+					<span class="view-comment-btn"> 4 Comments </span>
+					<span class="reply-comment-btn"> Reply <i class="material-icons" id="forum-reply-btn">
+							chat_bubble
+						</i> </span>
+				</div>
+
+			</div>
+			<div class="user-comments">
+
+			</div>
+
+			<form class="reply-form">
+				<input type="text" class="comment-text-box" id="txt-box" placeholder="Type Your Message Here ...">
+				<button class="comment-btn" type="submit">
+					<i class="material-icons">
+						chat_bubble
+					</i>
+				</button>
+
+			</form>
 
 
-		</footer>
+		</div>
+
 	</div>
+
 </body></html>
