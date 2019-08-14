@@ -130,12 +130,13 @@ span {
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuF571_gs5aw9LEawGmYIEKsHCp2mikMeWNvoj-A4uOl1wen6dlg);
+	background-image: url(https://www.washingtonpost.com/resizer/l0oCu0gt1Lm8Q4rSAiQdu8A2QaE=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CASLCTVV5EI6TLGIDWCHXLGKOM.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position-x: center;
+	background-position-y:top;
 	background-repeat: no-repeat;
-	width: 100vw;
-	height: 50vh;
+	width: 100%;
+	height: 100vh;
 	padding-top: 10%;
 
 
@@ -181,6 +182,7 @@ span {
 
 .material-icons {
 	padding: 10px;
+	margin-left:5px;
 }
 
 
@@ -521,4 +523,10 @@ footer {
 
 .main-container {
 	position: relative;
+}
+@media only screen and (min-width:866){
+	[class*="hero-img"]{
+		height:80vh;
+		font-size:40px;
+	}
 }

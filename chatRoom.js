@@ -68,13 +68,20 @@ function updateDB(event) {
 
 db.collection('messages').orderBy('create', 'asc').get().then(
 	function (response) {
+		console.log(response);
 		response.forEach(
 			function (doc) {
 				let msg = doc.data();
+				console.log(msg);
 				let newP = document.createElement('p');
 				newP.innerText = `${msg.message}`;
+				
 				msgContainer.append(newP);
+				
 			}
 		)
 	}
 );
+
+
+

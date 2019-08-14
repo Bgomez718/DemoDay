@@ -66,14 +66,14 @@ body {
 
 .callout-header {
 	padding: 25px 15px;
-	background: #4476ff;
+	background: rgb(174, 53, 142);
 	font-size: 30px;
 	color: white;
 }
 
 .callout-container {
 	padding: 15px;
-	background-color: #8ebeff;
+	background-color: rgb(216, 95, 180);
 	color: black
 }
 
