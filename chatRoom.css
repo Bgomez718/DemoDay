@@ -65,9 +65,9 @@ fonts : font-family: 'Roboto', sans-serif;
 }
 
 .comment-text {
-	display:flex;
-	justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 	width: 100%;
 	height: auto;
 	padding: 10px;
@@ -94,7 +94,7 @@ fonts : font-family: 'Roboto', sans-serif;
 
 .comment-box {
 	margin: 15px;
-	margin-bottom:35px;
+	margin-bottom: 35px;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -113,52 +113,52 @@ fonts : font-family: 'Roboto', sans-serif;
 	justify-content: space-between;
 
 	width: 100vw;
-	height:20vh;
+	height: 20vh;
 }
 
 .message-box {
-	width:90vw;
+	width: 90vw;
 	height: 9vh;
 	position: fixed;
 	border-top: 1px solid gray;
-	
+
 }
 
 .message-form {
 	height: 100%;
-	width:100%;
+	width: 100%;
 }
 
 .comment-text-box {
 	flex-grow: 1;
-	border:none;
+	border: none;
 	border-top: 1px solid #ededed;
 	padding: 20px;
 }
 
 .comment-btn {
 	background-color: #d8d8d8;
-	color:white;
+	color: white;
 	font-size: 100%;
 	border: none;
 }
 
-.comment-actions{
+.comment-actions {
 	font-family: 'Roboto', sans-serif;
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	padding: 10px;
 }
 
-.comment-actions span{
-	display:flex;
+.comment-actions span {
+	display: flex;
 	align-items: center;
 	font-weight: 400;
 	font-size: 0.8rem;
 }
 
 .reply-form {
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	display: flex;
 	align-items: stretch;
@@ -166,16 +166,24 @@ fonts : font-family: 'Roboto', sans-serif;
 	bottom: 0;
 }
 
-#forum-reply-btn{
- font-size: 0.8rem;
+#forum-reply-btn {
+	font-size: 0.8rem;
 }
 
-.reply-comment-btn{
+.reply-comment-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 #profile2 {
-	background-color:darkturquoise;
+	background-color: darkturquoise;
+}
+
+#profile3 {
+	background-color: purple;
+}
+
+.message {
+	float: left;
 }

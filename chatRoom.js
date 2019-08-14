@@ -1,5 +1,5 @@
 // Selects msg container
-let msgContainer = document.querySelector(".user-comments");
+let msgContainer = document.querySelector(".comment-flex");
 //select input 
 let cmntMsg = document.querySelector("#txt-box");
 //create and select a div for msg to populate 
@@ -26,49 +26,55 @@ function updateDB(event) {
 	console.log(message)
 
 	db.collection("message").add({
-		message: message ,
+			message: message,
 
-		//add message with time stamp
+			//add message with time stamp
 
-		created: firebase.firestore.FieldValue.serverTimestamp()
-	}).then(function(docRef) {
-		console.log("Document written with ID: ", docRef);
-		let newDiv = document.createElement('div');
+			created: firebase.firestore.FieldValue.serverTimestamp()
+		}).then(function (docRef) {
+			console.log("Document written with ID: ", docRef);
+			let newDiv = document.createElement('div');
 			newDiv.classList.add("comment-box");
 
-			newDiv.innerHTML = `<p class="message">${message} </p>`;
+			newDiv.innerHTML = ` <div class="profile-card">
+					<div class="profile-avatar" id="profile3">
 
-	 		msgContainer.append(newDiv);
-	})
-	
-	// .then(
-	// 	function (docRef) {
-	// 		docRef.get().then(doc => doc.data().message)
-	// 		let newDiv = document.createElement('div');
-	// 		newDiv.classList.add("comment-box");
+					</div>
+					<div class="profile-author">
+						<span> ASCstudent </span>
+					</div>
+				</div>
+				<div class="comment-text">
+<p class="message">${message} </p>
 
-	// 					newDiv.innerHTML = `<p class="message">${message} </p>`;
+				</div>
+				<div class="comment-actions">
+					<span class="view-comment-btn"> 0 Comments </span>
+					<span class="reply-comment-btn"> Reply <i class="material-icons" id="forum-reply-btn">
+							chat_bubble
+						</i> </span>`;
 
-	// 		msgContainer.append(newDiv.innerHTML = `<p class="message">${message} </p>`);
-	// 	}
-	.catch(
-		function (error) {
-			console.error("All this hard work to mess up: ", error);
-		}
-	);
+			msgContainer.append(newDiv);
+			window.scrollTo(0, document.body.scrollHeight);
+		})
+		.catch(
+			function (error) {
+				console.error("All this hard work to mess up: ", error);
+			}
+		);
 }
 
 
 
-	db.collection('messages').orderBy('create', 'asc').get().then(
-		function (response) {
-			response.forEach(
-				function (doc) {
-					let msg = doc.data();
-					let newP = document.createElement('p');
-					newP.innerText = `${msg.message}`;
-					msgContainer.append(newP);
-				}
-			)
-		}
-	);
+db.collection('messages').orderBy('create', 'asc').get().then(
+	function (response) {
+		response.forEach(
+			function (doc) {
+				let msg = doc.data();
+				let newP = document.createElement('p');
+				newP.innerText = `${msg.message}`;
+				msgContainer.append(newP);
+			}
+		)
+	}
+);
